@@ -11,6 +11,9 @@ import { FormsModule } from '@angular/forms';
 import { PagesModule } from './pages/pages.module';
 import { ChartsModule } from 'ng2-charts';
 
+// Servicios
+import { ServiceModule } from './services/service.module';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +25,8 @@ import { ChartsModule } from 'ng2-charts';
     APP_ROUTES,
     PagesModule,
     FormsModule,
-    ChartsModule
+    ChartsModule,
+    ServiceModule
   ],
   providers: [],
   bootstrap: [AppComponent]
